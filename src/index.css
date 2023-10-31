@@ -3,4 +3,24 @@
 @tailwind utilities;
 
 
+@layer base {
+    .btn {
+      @apply text-[15px] tracking-[3px] font-primary uppercase text-white flex-1 transition-all px-8 flex justify-center items-center;
+    }
+    .btn-sm {
+      @apply h-[48px];
+    }
+    .btn-lg {
+      @apply h-[60px];
+    }
+    .btn-primary {
+      @apply bg-primary hover:bg-primary-hover;
+    }
+    .btn-primary {
+        @apply bg-primary hover:bg-primary-hover;
+      }
+      .btn-secondary {
+        @apply bg-primary hover:bg-accent;
+      }
 
+  }
