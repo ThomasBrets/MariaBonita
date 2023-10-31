@@ -58,7 +58,7 @@ const HeroSlider = () => {
             className="h-full bg-pink-300 relative flex justify-center items-center"
             key={index}
           >
-            <div className="z-20 text-white text-center">
+            <div className="z-20 text-white text-center m-auto">
               <div>
                 <img className="rounded-full" src={logo} alt="" />
               </div>
