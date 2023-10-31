@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 // Logo
 import logo from "../assets/img/logo.png";
 
-// Utils
+// Utils nazi
 import { scrollToSection } from "../utils/ScrollToSection";
 
 const Header = () => {
