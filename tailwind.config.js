@@ -25,7 +25,7 @@ export default {
 
         secondary: {
           DEFAULT: "#00944a",
-          hover: "#0a7f49",
+          hover: "#239862",
         },
       },
       backgroundImage: {
