@@ -11,7 +11,7 @@ const Home = () => {
     <>
     <HeroSlider/>
     <MyHistory/>
-    <BookForm/>
+    <BookForm/> 
     <Menu/>
     </>
   )
