@@ -4,12 +4,12 @@ import React, { useEffect, createContext, useState } from "react";
 import { menuData } from "../data";
 
 // Create Context
-const menuContext = createContext();
+export const menuContext = createContext();
 
 const MenuProvider = ({ children }) => {
   const [menu, setMenu] = useState(menuData);
 
-  console.log("MENU", menu);
+  // console.log("MENU", menu);
 
   return (
     <menuContext.Provider value={{ menu, setMenu }}>
