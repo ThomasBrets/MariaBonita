@@ -54,7 +54,7 @@ export const menuData = [
   },
   {
     id: 4,
-    name: "Cerveza",
+    name: "Patagonia",
     category: "Bebida",
 
     img: "img",
@@ -76,6 +76,23 @@ export const menuData = [
     id: 6,
     name: "Nachos",
     category: "Entrada",
+
+    img: "img",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
+    ingredients: [
+      {
+        name: "Ajo",
+        name: "Chile",
+        name: "Picante",
+        name: "Carne",
+      },
+    ],
+  },
+  {
+    id: 6,
+    name: "Hamburgesa XL",
+    category: "Principal",
 
     img: "img",
     description:
