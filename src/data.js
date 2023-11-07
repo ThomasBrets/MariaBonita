@@ -1,4 +1,17 @@
-// import IMG from /assets/img folder.
+// import food images
+import Burger from "./assets/food/Burger.jpg"
+import Empanada from "./assets/food/Empanada.jpg"
+import Nachos  from "./assets/food/Nachos.jpg"
+import Quesadilla from "./assets/food/Quesadilla.jpg"
+import Tacos from "./assets/food/Nachos.jpg"
+
+// import drink images
+import Corona from "./assets/drinks/Corona.jpg"
+import Vino from "./assets/drinks/Vino.jpg"
+
+// import desserts images
+import Flan from "./assets/desserts/Flan.jpg"
+import iceCream from "./assets/desserts/IceCream.jpg"
 
 import historyImg from "../src/assets/img/restaurant.jpg";
 
@@ -7,7 +20,7 @@ export const menuData = [
     id: 1,
     name: "Taco",
     category: "Principal",
-    img: "img",
+    img: Tacos,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
@@ -23,7 +36,7 @@ export const menuData = [
     id: 2,
     name: "Quesadilla",
     category: "Principal",
-    img: "img",
+    img: Quesadilla,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
@@ -40,7 +53,7 @@ export const menuData = [
     name: "Empanada",
     category: "Entrada",
 
-    img: "img",
+    img: Empanada,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
@@ -54,10 +67,10 @@ export const menuData = [
   },
   {
     id: 4,
-    name: "Patagonia",
+    name: "Corona",
     category: "Bebida",
 
-    img: "img",
+    img: Corona,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [],
@@ -67,7 +80,7 @@ export const menuData = [
     name: "Vino",
     category: "Bebida",
 
-    img: "img",
+    img: Vino,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [],
@@ -77,7 +90,7 @@ export const menuData = [
     name: "Nachos",
     category: "Entrada",
 
-    img: "img",
+    img: Nachos,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
@@ -94,7 +107,7 @@ export const menuData = [
     name: "Hamburgesa XL",
     category: "Principal",
 
-    img: "img",
+    img: Burger,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
@@ -111,7 +124,7 @@ export const menuData = [
     name: "Helado",
     category: "Postres",
 
-    img: "img",
+    img: iceCream,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
@@ -124,10 +137,10 @@ export const menuData = [
   },
   {
     id: 8,
-    name: "Volcan",
+    name: "Flan",
     category: "Postres",
 
-    img: "img",
+    img: Flan,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [

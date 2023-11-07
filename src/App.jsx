@@ -19,7 +19,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/:menu/:id" element={<FoodDetails />} />
+        <Route path="/menu/:id" element={<FoodDetails />} />
         <Route path="/events" element={<Events />}/>
       </Routes>
       <Footer />
