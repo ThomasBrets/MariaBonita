@@ -3,22 +3,55 @@ import React from "react";
 // Link
 import { Link } from "react-router-dom";
 
+// Icons
+import { BiDollar } from "react-icons/bi";
+import { BsPeople } from "react-icons/bs";
+
 const Food = ({ menu }) => {
-  const { id, name, description, img, ingredients, category } = menu;
+  const { id, name, description, img, ingredients, category, price, persons } =
+    menu;
 
   return (
-    <Link to={`/menu/${menu.id}`}>
-      <div className="bg-white shadow-2xl min-h-[350px] group">
-        {/* img */}
-        <div className=" h-56 overflow-hidden">
-          <img
-            src={img}
-            className="group-hover:scale-110 transition-all duration-300 w-full h-full object-cover"
-            alt=""
-          />
+    <div className="bg-white shadow-2xl min-h-[350px] p-2 group rounded-lg">
+      {/* img */}
+      <div className=" h-56 overflow-hidden rounded-lg">
+        <img
+          src={img}
+          className="group-hover:scale-110 transition-all duration-300 h-full object-cover"
+          alt=""
+        />
+      </div>
+
+      {/* Details */}
+      <div className="bg-primary shadow-lg max-w-[300px] mx-[15px] h-[60px] -translate-y-5 uppercase flex justify-center items-center font-primary tracking-[1px] font-semibold rounded-lg">
+        <div className="flex justify-between w-[80%] text-white">
+          {/* Price */}
+          <div className="flex items-center text-[22px] gap-x-1">
+            <div>
+              <BiDollar className="" />
+            </div>
+            {price}
+          </div>
+          {/* People */}
+          <div className="flex items-center text-[22px] gap-x-1">
+            <div>
+              <BsPeople />
+            </div>
+            {persons}
+          </div>
         </div>
       </div>
-    </Link>
+
+      {/* Name & description */}
+      <div className="text-center">
+        <div className="h3 uppercase">{name}</div>
+        <Link to={`/menu/${menu.id}`}>
+          <button className="my-1 bg-secondary font-primary p-2 w-[120px] rounded-lg uppercase font-semibold text-white">
+            Descripción
+          </button>
+        </Link>
+      </div>
+    </div>
   );
 };
 

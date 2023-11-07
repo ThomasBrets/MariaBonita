@@ -17,7 +17,7 @@ const Menu = () => {
           Nuestro Menu
         </div>
         {/* grid */}
-        <div className=" grid grid-col-1 max-w-sm mx-auto gap-[30px] lg:grid-cols-4 lg:max-w-none lg:mx-0">
+        <div className=" grid grid-col-1 max-w-sm mx-auto gap-[30px] lg:grid-cols-4 lg:max-w-none lg:mx-0 mt-[15px]">
           {menu.map((menu) => {
             return (
                 <Food menu={menu} key={menu.id} />
