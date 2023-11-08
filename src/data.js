@@ -111,7 +111,7 @@ export const menuData = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     name: "Hamburgesa XL",
     price: 7000,
     persons: 1,
@@ -129,7 +129,7 @@ export const menuData = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     name: "Helado",
     price: 2500,
     persons: 1,
@@ -146,7 +146,7 @@ export const menuData = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     name: "Flan",
     price: 3000,
     persons: 1,

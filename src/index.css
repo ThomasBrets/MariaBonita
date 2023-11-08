@@ -21,10 +21,7 @@
   .btn-primary {
     @apply bg-primary hover:bg-primary-hover;
   }
-  .btn-primary {
-    @apply bg-primary hover:bg-primary-hover;
-  }
   .btn-secondary {
-    @apply bg-primary hover:bg-accent;
+    @apply bg-secondary hover:bg-secondary-hover;
   }
 }

@@ -43,6 +43,7 @@ const slides = [
 const HeroSlider = () => {
   return (
     <Swiper
+      id="#home"
       modules={[EffectFade, Autoplay]}
       effect="fade"
       loop={true}
