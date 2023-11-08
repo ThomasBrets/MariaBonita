@@ -29,7 +29,7 @@ export default {
         },
       },
       backgroundImage: {
-        restaurant: "url('./assets/img/restaurant.png')",
+        restaurant: "url('./assets/img/restaurant.jpg')",
       },
     },
   },

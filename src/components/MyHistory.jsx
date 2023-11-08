@@ -7,7 +7,7 @@ const MyHistory = () => {
   const { pretitle, title, subtitle1, subtitle2 } = historyData;
 
   return (
-    <section className="h-[500px] pt-[50px]">
+    <section id='#history' className="h-[500px] pt-[50px]">
       <div className="container mx-auto flex flex-row justify-center items-center space-x-[250px]">
         {/* texto */}
         <div className="w-[400px]">

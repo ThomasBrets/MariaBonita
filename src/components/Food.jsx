@@ -46,7 +46,7 @@ const Food = ({ menu }) => {
       <div className="text-center">
         <div className="h3 uppercase">{name}</div>
         <Link to={`/menu/${menu.id}`}>
-          <button className="my-1 bg-secondary font-primary p-2 w-[120px] rounded-lg uppercase font-semibold text-white">
+          <button className="my-2 btn-secondary font-primary transition-all p-2 w-[160px] rounded-lg uppercase font-semibold text-white">
             Descripción
           </button>
         </Link>
