@@ -1,19 +1,23 @@
-// import food images
+// food images
 import Burger from "./assets/food/Burger.jpg";
 import Empanada from "./assets/food/Empanada.jpg";
 import Nachos from "./assets/food/Nachos.jpg";
 import Quesadilla from "./assets/food/Quesadilla.jpg";
 import Tacos from "./assets/food/Tacos.jpg";
 
-// import drink images
+// drink images
 import Corona from "./assets/drinks/Corona.jpg";
 import Vino from "./assets/drinks/Vino.jpg";
 
-// import desserts images
+// desserts images
 import Flan from "./assets/desserts/Flan.jpg";
 import iceCream from "./assets/desserts/IceCream.jpg";
 
+// history image
 import historyImg from "../src/assets/img/restaurant.jpg";
+
+// Icon
+import { TbChefHat } from "react-icons/tb";
 
 export const menuData = [
   {
@@ -26,12 +30,10 @@ export const menuData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
-      {
-        name: "Ajo",
-        name: "Chile",
-        name: "Picante",
-        name: "Carne",
-      },
+      { name: "Ajo" },
+      { name: "Chile" },
+      { name: "Picante" },
+      { name: "Carne" },
     ],
   },
   {
@@ -44,12 +46,10 @@ export const menuData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
-      {
-        name: "Ajo",
-        name: "Chile",
-        name: "Picante",
-        name: "Carne",
-      },
+      { name: "Ajo" },
+      { name: "Chile" },
+      { name: "Picante" },
+      { name: "Carne" },
     ],
   },
   {
@@ -62,12 +62,10 @@ export const menuData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
-      {
-        name: "Ajo",
-        name: "Chile",
-        name: "Picante",
-        name: "Carne",
-      },
+      { name: "Ajo" },
+      { name: "Chile" },
+      { name: "Picante" },
+      { name: "Carne" },
     ],
   },
   {
@@ -102,12 +100,10 @@ export const menuData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
-      {
-        name: "Ajo",
-        name: "Chile",
-        name: "Picante",
-        name: "Carne",
-      },
+      { name: "Ajo" },
+      { name: "Chile" },
+      { name: "Picante" },
+      { name: "Carne" },
     ],
   },
   {
@@ -120,12 +116,10 @@ export const menuData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
-      {
-        name: "Ajo",
-        name: "Chile",
-        name: "Picante",
-        name: "Carne",
-      },
+      { name: "Ajo" },
+      { name: "Chile" },
+      { name: "Picante" },
+      { name: "Carne" },
     ],
   },
   {
@@ -138,11 +132,9 @@ export const menuData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
-      {
-        name: "Helado de vainilla",
-        name: "Chocolate",
-        name: "Dulce de leche",
-      },
+      { name: "Helado de vainilla" },
+      { name: "Chocolate" },
+      { name: "Dulce de leche" },
     ],
   },
   {
@@ -155,10 +147,8 @@ export const menuData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi, reprehenderit adipisci cumque eligendi aliquam nisi fuga optio vero at iste placeat quae a consequatur, odit exercitationem eos expedita excepturi.",
     ingredients: [
-      {
-        name: "Chocolate",
-        name: "Dulce de leche",
-      },
+      { name: "Helado de vainilla" },
+      { name: "Dulce de leche" },
     ],
   },
 ];
