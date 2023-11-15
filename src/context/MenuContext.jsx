@@ -4,7 +4,7 @@ import React, { useEffect, createContext, useState } from "react";
 import { menuData } from "../data";
 
 // Create Context
-const menuContext = createContext();
+export const menuContext = createContext();
 
 const MenuProvider = ({ children }) => {
   const [menu, setMenu] = useState(menuData);
