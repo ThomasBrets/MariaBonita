@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className="bg-primary py-6 mt-6">
       <div className="container mx-auto flex items-center justify-between">
         <a href="/">
-          <img src={Logo} alt="" className="rounded-full w-[125px] h-[125px]" />
+          <img src={Logo} alt="" className="w-[125px] h-[125px]" />
         </a>
         <div className="text-white">
           Copyright &copy; 2023 Bitech. All rights reserved.

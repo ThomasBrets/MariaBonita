@@ -61,7 +61,7 @@ const HeroSlider = () => {
           >
             <div className="z-20 text-white text-center m-auto">
               <div>
-                <img className="rounded-full" src={logo} alt="" />
+                <img className="" src={logo} alt="" />
               </div>
               <button
                 className="btn btn-primary btn-lg mx-auto rounded mt-5"
