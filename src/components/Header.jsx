@@ -19,12 +19,12 @@ const Header = () => {
   return (
     <header
       className={`${
-        header ? "bg-primary py-6 shadow-lg" : "bg-transparent py-5"
+        header ? "bg-primary py-2 shadow-lg" : "bg-transparent py-5"
       } fixed z-50 w-full transition-all duration-500`}
     >
       <div className="container mx-auto  gap-y-6 flex flex-col items-center lg:flex-row lg:justify-between lg:gap-y-0">
         <a href="/">
-          <img src={logo} alt="logo" className={`hidden lg:block w-[125px] h-[125px] p-1`} />
+          <img src={logo} alt="logo" className={`hidden lg:block w-[105px] h-[105px]`} />
         </a>
         <nav className={`text-white" font-primary font-bold flex gap-x-4 uppercase text-[21px] tracking-3px items-center lg:gap-x-8`}>
           <div href="" onClick={() => scrollToSection('#home')} className={`${header ? "text-white hover:text-secondary-hover" : "text-white hover:text-primary-hover"}  transition cursor-pointer`} >Home</div>
