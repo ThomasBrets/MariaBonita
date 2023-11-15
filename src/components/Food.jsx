@@ -46,7 +46,7 @@ const Food = ({ menu }) => {
       <div className="text-center">
         <div className="h3 uppercase">{name}</div>
         <Link to={`/menu/${menu.id}`}>
-          <div className="h-[46px] hover:text-[20px]">
+          <div className="h-[46px]">
             <button className="my-2 btn-secondary font-primary transition-all p-2 w-[160px] hover:shadow-lg rounded-lg uppercase font-semibold text-white">
               Descripción
             </button>
