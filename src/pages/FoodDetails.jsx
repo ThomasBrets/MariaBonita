@@ -78,7 +78,7 @@ const FoodDetails = () => {
             </div>
           </div>
           {/* price, persons, category */}
-          <div className="bg-primary uppercase font-primary my-4 mx-6 p-6 text-white text-[25px] flex justify-between items-center rounded-lg">
+          <div className="bg-primary uppercase font-primary my-4 mx-6 p-6 text-white text-[30px] flex justify-between items-center rounded-lg">
             <div className="flex gap-x-2 items-center">
               <div>
                 <BiDollar />
