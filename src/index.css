@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  .h1 {
+    @apply font-primary text-[55px] mb-4;
+  }
   .h2 {
     @apply font-primary text-[45px] mb-4;
   }

@@ -27,11 +27,11 @@ const Header = () => {
           <img src={logo} alt="logo" className={`hidden lg:block w-[105px] h-[105px]`} />
         </a>
         <nav className={`text-white" font-primary font-bold flex gap-x-4 uppercase text-[21px] tracking-3px items-center lg:gap-x-8`}>
-          <div href="" onClick={() => scrollToSection('#home')} className={`${header ? "text-white hover:text-secondary-hover" : "text-white hover:text-primary-hover"}  transition cursor-pointer`} >Home</div>
-          <div href="" onClick={() => scrollToSection('#history')} className={`${header ? "text-white hover:text-secondary-hover" : "text-white hover:text-primary-hover"}  transition cursor-pointer`} >Nosotros</div>
-          <div href="" onClick={() => scrollToSection('#menu')} className={`${header ? "text-white hover:text-secondary-hover" : "text-white hover:text-primary-hover"}  transition cursor-pointer`} >Menu</div>
-          <a href="/events" className={`${header ? "text-white hover:text-secondary-hover" : "text-white hover:text-primary-hover"}  transition`}>Eventos</a>
-          <div href="" onClick={() => scrollToSection('#contact')} className={`${header ? "text-white hover:text-secondary-hover" : "text-white hover:text-primary-hover"}  transition cursor-pointer`}>Reserva</div>
+          <div href="" onClick={() => scrollToSection('#home')} className={`${header ? "text-white hover:text-secondary-hover" : "text-white hover:text-primary-hover"}  transition cursor-pointer text-shadow`} >Home</div>
+          <div href="" onClick={() => scrollToSection('#history')} className={`${header ? "text-white hover:text-secondary-hover" : "text-white hover:text-primary-hover"}  transition cursor-pointer text-shadow`} >Nosotros</div>
+          <div href="" onClick={() => scrollToSection('#menu')} className={`${header ? "text-white hover:text-secondary-hover" : "text-white hover:text-primary-hover"}  transition cursor-pointer text-shadow`} >Menu</div>
+          <a href="/events" className={`${header ? "text-white hover:text-secondary-hover" : "text-white hover:text-primary-hover"}  transition text-shadow`}>Eventos</a>
+          <div href="" onClick={() => scrollToSection('#contact')} className={`${header ? "text-white hover:text-secondary-hover" : "text-white hover:text-primary-hover"}  transition cursor-pointer text-shadow`}>Reserva</div>
         </nav>
       </div>
     </header>
